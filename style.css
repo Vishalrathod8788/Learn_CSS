@@ -1,7 +1,19 @@
-body {
-  background-color: #857c7c;
-  background-image: url("https://imgs.search.brave.com/ErR0m2B_6rH7EPu-0aZcC5iyXIrk37G4J9ATpqjz1Ro/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/b3NraW5nLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNC8w/Ni9iZWF1dGlmdWwt/Z2FucGF0aS1pbWFn/ZXNfMzkud2VicA");
-  background-repeat: no-repeat;
-  /* background-size: 100%, 100%; */
-  background-position: top right; 
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "jost";
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* color: #fff; */
+  text-shadow: 2px, 2px, 5px, #000;
+}
+
+p {
+  font-size: 20px;
+  /* color: #fff; */
 }
