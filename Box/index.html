@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Learn CSS Box Model From Thapa Technical</h1>
+    <p>Start learning CSS from scratch to advanced</p>
+    <p>
+      The CSS box model is a fundamental concept in web design that describes
+      the rectangular boxes generated for elements in the document tree. Each
+      box consists of margins, borders, padding, and the actual content area.
+      Understanding the box model is crucial for controlling layout and spacing
+      in web pages.
+    </p>
+    <ul>
+      <li>margin: 20px;</li>
+      <li>border: 2px solid black;</li>
+      <li>padding: 10px;</li>
+      <li>width: 300px;</li>
+      <li>height: 150px;</li>
+    </ul>
+    <div
+      style="
+        margin: 20px;
+        border: 2px solid black;
+        padding: 10px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        /* background-color: lightblue; */
+        background-image: linear-gradient(
+          to right,
+          rgba(234, 2, 2, 0.5),
+          rgba(255, 255, 255, 0.5),
+          rgba(46, 15, 205, 0.5)
+        );
+      "
+    >
+      <!-- This is a box model example. -->
+    </div>
+    <p>
+      The box model is essential for creating visually appealing and
+      well-structured web pages. It allows developers to control the spacing and
+      alignment of elements effectively. By adjusting the margin, border,
+      padding, and content dimensions, you can achieve the desired layout and
+      design. It's important to remember that the total width and height of an
+      element include the content, padding, border, and margin. This means that
+      when you set a width or height, you need to consider the additional space
+      taken up by padding and borders. Using the box-sizing property can help
+      manage this complexity by allowing you to include padding and border in
+      the element's total width and height. Additionally, understanding how
+      different display properties (like block, inline, and inline-block)
+      interact with the box model is crucial for achieving the desired layout.
+      Mastering the box model will significantly enhance your CSS skills and
+      enable you to create responsive and well-designed web pages.
+    </p>
+  </body>
 </html>
